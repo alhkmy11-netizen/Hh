@@ -1,0 +1,18 @@
+{
+  "framework": "tanstack-start",
+  "installCommand": "bun install",
+  "crons": [
+    {
+      "path": "/api/public/hooks/sync-deals-hourly",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/public/hooks/daily-content-sync",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/public/hooks/price-watch",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}

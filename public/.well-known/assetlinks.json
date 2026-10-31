@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "alhkmy.store",
+      "sha256_cert_fingerprints": [
+        "9F:29:82:53:ED:BF:9E:FB:09:44:F7:40:D6:6B:59:C4:76:61:F4:E3:F8:6F:22:C5:27:F6:9B:D8:03:EB:A3:2F"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hkeeemai.store",
+      "sha256_cert_fingerprints": [
+        "9F:29:82:53:ED:BF:9E:FB:09:44:F7:40:D6:6B:59:C4:76:61:F4:E3:F8:6F:22:C5:27:F6:9B:D8:03:EB:A3:2F"
+      ]
+    }
+  }
+]
